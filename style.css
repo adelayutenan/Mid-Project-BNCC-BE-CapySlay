@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'tiltWrap';
+	src: url('TiltWarp-Regular-VariableFont_XROT.ttf') format('ttf');
+
+}
+body {
+	background-image: url(background/bg1.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 130vh;
+}
+
+label {
+	height: 100vh;	
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 400px;
+	padding: 20px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	font-family: sans-serif;
+	text-align: left;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+input {
+	display: block;
+	border: 1px solid #b0afaf;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #545353;
+	font-size: 15px;
+	padding: 15px;
+}
+
+button {
+	float: right;
+	background: #0f5e64;
+	padding: 10px 15px;
+	color: #ffffff;
+	border-radius: 15px;
+	margin-right: 15px; 
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #ffffff;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #e20707;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+
+h1 {
+	font-size: 60px;
+	font-family: tiltWrap;
+	text-align: center;
+	color: #227c97;
+	margin-bottom: 70px;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 13px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
